@@ -14,7 +14,7 @@ class Jenis_Sepeda extends REST_Controller{
     public function __construct(){
 
         parent::__construct();
-
+        
         $this->load->model('Model_Jenis_Sepeda');
     }
 
